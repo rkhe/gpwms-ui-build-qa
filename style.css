@@ -1,0 +1,211 @@
+@media print {
+    @page {
+        size: 4in 2in;
+    }
+}
+
+.receiving-pallet-label .pallet_num {
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    top: -14px
+}
+
+.receiving-pallet-label .inital-location {
+    font-size: 12px!important;
+}
+
+.receiving-pallet-label .gplogo {
+    width: 100px;
+    position: relative;
+    top: -22px;
+    left: 3px;
+}
+
+.receiving-pallet-label .initial-locaiton {
+    position: relative;
+    top: -13px;
+    left: 3px;
+    text-align: center;
+    font-size: 12px
+}
+
+.receiving-pallet-label {
+    height:2in;
+    width:4in;
+}
+
+.receiving-pallet-label-material {
+    height:2in;
+    width:4in;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.receiving-pallet-label .css-mhc70k-MuiGrid-root>.MuiGrid-item {
+    /* padding-left: 0!important; */
+}
+
+.receiving-pallet-label-material .css-mhc70k-MuiGrid-root>.MuiGrid-item {
+    /* padding-left: 0!important; */
+    padding-top: 10px!important;
+}
+
+.receiving-pallet-label-material .pallet_num {
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    top: -14px
+}
+
+.receiving-pallet-label-material .gplogo {
+    width: 120px;
+    position: relative;
+    top: -22px;
+    left: 3px;
+}
+
+.receiving-pallet-label-material .initial-locaiton {
+    position: relative;
+    top: -13px;
+    left: 3px;
+    text-align: center;
+    font-size: 12px
+}
+
+.receiving-pallet-label-material .material-text{
+    position: relative;
+    top: -13px;
+}
+
+.receiving-pallet-label-inside {
+    height:210px;
+}
+
+.qrcode-container-rr {
+    width: 384px;
+    height: 192px;
+    position: relative;
+    display: block;
+}
+
+.qrcode-container {
+    width: 144px;
+    height: 192px;
+    position: relative;
+    display: block;
+    padding: 12px;
+}
+
+.qr-container-inside {
+    display: inline-block;
+}
+
+.qrcode-container .qrcode1 {
+    position: relative;
+    display: inline-block;    
+    height: 221px;
+}
+
+.qrcode-container .qrcode2 {
+    position: relative;
+    display: inline-block;    
+    float: right;
+}
+
+.qrcode-container .qrcode-container-box {
+    
+}
+
+.qrcode-container-2 {
+    width: 288px;
+    height: 192px;
+    position: relative;
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+
+.qrcode-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: black!important;
+}
+
+.qrcode-container-2 h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container-qr {
+    position: relative;
+    margin: 0 auto;
+}
+
+.receiving-pallet-label .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    text-align: center;
+}
+
+.mui-datetime-picker div input {
+    padding: 8px 8px;
+}
+
+/* FONT */
+.fs-1 {
+    font-size: 2.5rem!important;
+}
+.fs-2 {
+    font-size: 2rem!important;
+}
+.fs-3 {
+    font-size: 1.75rem!important;
+}
+.fs-4 {
+    font-size: 1.5rem!important;
+}
+.fs-5 {
+    font-size: 1.25rem!important;
+}
+.fs-6 {
+    font-size: 1rem!important;
+}
+.fs-7 {
+    font-size: 0.75rem!important;
+}
+.fs-8 {
+    font-size: 0.5rem!important;
+}
+
+.text-truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* max-width: 200px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height:36px;
+}
+.cursor-help {
+    cursor: help;
+}
+.col-form-span {
+    margin-top: calc(0.375rem + 1px);
+    margin-bottom: calc(0.375rem + 1px);
+    line-height: 1.5;
+}
+.table-th-thin {
+    padding-top: .0rem !important;
+    padding-bottom: .0rem !important;
+}
+.table-th-thin-first {
+    padding-left: .75rem !important;
+}
+.table-th-thin-top {
+    border-bottom: unset !important;
+}
+.table-th-thin-bottom {
+    font-weight:normal !important;
+}
+.table-td-desc {
+    width: 250px !important;
+}
